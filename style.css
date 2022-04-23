@@ -81,6 +81,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 450px;
 }
 
 .categories {
@@ -115,4 +116,34 @@ h3 {
     align-items: center;
     margin: 8px;
     max-width: 250px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 425px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.quote p {
+    margin: 0px 0px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.text .customer {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-style: normal;
 }
