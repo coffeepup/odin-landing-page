@@ -65,7 +65,8 @@ h2 {
     max-width: 100%;
     height: auto;
 }
-button {
+
+.hero-and-image button {
     background-color: #3882F6;
     font-size: 18px;
     color: #E5E7EB;
@@ -146,4 +147,51 @@ h3 {
     justify-content: end;
     font-weight: bold;
     font-style: normal;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.signup-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+    min-width: 800px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:#E5E7EB;
+    min-height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.signup-text p {
+    margin: 0;
+    padding: 2px;
+}
+
+h5 {
+    font-size: 24px;
+    margin: 0;
+    padding: 2px; 
+}
+
+.signup-container button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 2px solid;
+    border-radius: 12px;
+    padding: 8px 24px;
+    font-weight: 700;
+    border-color: #E5E7EB;
 }
