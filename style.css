@@ -195,3 +195,14 @@ h5 {
     font-weight: 700;
     border-color: #E5E7EB;
 }
+footer {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer p {
+    color:#E5E7EB;
+}
